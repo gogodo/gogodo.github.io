@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>陈君的个人博客</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="陈君的个人博客 - 分享成长思路、技术方案与心路历程">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #42b983;
+      --theme-color-dark: #35a872;
+    }
+
+    /* 调整侧边栏宽度 */
+    .sidebar {
+      width: 280px;
+    }
+
+    /* 调整内容区域 */
+    .content {
+      padding-top: 60px;
+    }
+
+    /* 自定义封面页样式 */
+    .cover-main {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    /* 文章卡片样式 */
+    .post-card {
+      border: 1px solid #e1e4e8;
+      border-radius: 6px;
+      padding: 16px;
+      margin-bottom: 16px;
+      transition: box-shadow 0.3s;
+    }
+
+    .post-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    /* 标签样式 */
+    .tag {
+      display: inline-block;
+      background: #f1f3f5;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-size: 12px;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+
+    .tag.tech {
+      background: #e3f2fd;
+      color: #1976d2;
+    }
+
+    .tag.growth {
+      background: #e8f5e9;
+      color: #388e3c;
+    }
+
+    .tag.thought {
+      background: #fff3e0;
+      color: #f57c00;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '陈君的博客',
+      repo: '',
+
+      // 侧边栏配置
+      loadSidebar: true,
+      subMaxLevel: 2,
+      autoHeader: true,
+
+      // 封面页
+      coverpage: true,
+
+      // 导航栏
+      loadNavbar: false,
+
+      // 主题色
+      themeColor: '#42b983',
+
+      // 搜索
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索文章...',
+        noData: '没有找到结果',
+        depth: 3,
+        hideOtherSidebarContent: false,
+      },
+
+      // 字数统计
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(107, 107, 107)',
+        language: 'chinese'
+      },
+
+      // 分页
+      pagination: {
+        previousText: '上一页',
+        nextText: '下一页',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+
+      // 复制代码
+      copyCode: {
+        buttonText: '复制',
+        errorText: '错误',
+        successText: '复制成功'
+      },
+
+      // 自定义插件
+      plugins: [
+        function(hook, vm) {
+          // 在页面加载后执行
+          hook.doneEach(function() {
+            // 可以在这里添加自定义逻辑
+          });
+        }
+      ]
+    }
+  </script>
+
+  <!-- Docsify 核心 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- 搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+
+  <!-- 字数统计插件 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
+
+  <!-- 分页插件 -->
+  <script src="//unpkg.com/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+
+  <!-- 复制代码插件 -->
+  <script src="//unpkg.com/docsify-copy-code@2"></script>
+
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+</body>
+</html>
