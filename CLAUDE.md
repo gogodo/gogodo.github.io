@@ -4,11 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概述
 
-这是陈君的个人博客项目，使用 Docsify 构建静态博客网站，部署在 GitHub Pages 上。
+这是君的个人博客项目，使用 Docsify 构建静态博客网站，部署在 GitHub Pages 上。
 
 ### 项目目标
 - 发布个人技术方案、成长思路、心路历程
-- 打造陈君的个人品牌 IP
+- 打造君的个人品牌 IP
 - 提供简洁优雅的阅读体验
 
 ## 技术栈
@@ -41,7 +41,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```javascript
 window.$docsify = {
-  name: '陈君的博客',        // 网站名称
+  name: 'Mouse陈的耗子窝',        // 网站名称
   loadSidebar: true,        // 启用侧边栏
   subMaxLevel: 2,           // 侧边栏显示的标题层级
   coverpage: true,          // 启用封面页（需要 _coverpage.md）
@@ -63,8 +63,7 @@ window.$docsify = {
 
 根据文章分类放置到对应目录：
 - 技术方案 → `posts/tech/`
-- 成长思路 → `posts/growth/`
-- 心路历程 → `posts/thoughts/`
+- 成长心路 → `posts/growth/`
 - 关于页面 → `posts/about/`
 
 ### 文章格式
@@ -124,8 +123,8 @@ Docsify 的特性是保存文件后刷新浏览器即可看到更改，无需重
 2. 推送代码到仓库
 3. 进入仓库 Settings → Pages
 4. Source 选择：Deploy from a branch
-5. Branch 选择：main / (或 master)，目录选择 `/ (root)`
-6. 访问 `https://your-username.github.io/repo-name`
+5. Branch 选择：master，目录选择 `/ (root)`
+6. 访问 `https://gogodo.github.io`
 
 ### 更新部署
 
