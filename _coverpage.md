@@ -1,12 +1,19 @@
-# 陈君的个人博客
+# MouseChen
 
-> 分享成长思路、技术方案与心路历程
+> <span style="font-size: 1.15em; opacity: 0.9; letter-spacing: 0.02em; font-weight: 500;">专注成长 · 技术分享 · 心路历程</span>
 
-[技术方案](posts/tech/)
-[成长思路](posts/growth/)
-[心路历程](posts/thoughts/)
-[关于](posts/about/)
+<div class="cover-content" style="margin: 2.5rem 0;">
 
-![层叠样式](docs/_media/cover.png)
+[开始阅读](posts/README.md)
 
-© 2026 陈君
+</div>
+
+---
+
+<div style="margin-top: 2rem; font-size: 0.9em; opacity: 0.75; letter-spacing: 0.05em; font-family: var(--font-family-code);">
+<p>记录技术实践 · 分享成长感悟 · 连接志同道合</p>
+</div>
+
+<div style="font-size: 0.8em; opacity: 0.5; margin-top: 1rem; font-family: var(--font-family-code);">
+© 2026 MouseChen
+</div>
