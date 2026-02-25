@@ -50,21 +50,14 @@
 
 ## 🎯 关于我
 
-我是一个热爱技术、喜欢思考的人，正在持续成长的道路上前行。这个博客是我记录和分享的平台，希望通过文字传递价值，连接更多志同道合的朋友。
+我的定位：**把 AI 从 Demo 变成生产系统的架构师**。
 
-### 技术兴趣
+我长期在企业系统一线做架构与交付，关注 AI（尤其是 RAG/知识工程）从“能演示”到“能上线、可运营、可迭代”的工程化落地。
 
-- 💻 **前端开发** - Vue, React, TypeScript
-- 🚀 **后端开发** - Java, Python, Node.js
-- ☁️ **云原生** - Docker, Kubernetes
-- 🎨 **技术写作** - 知识沉淀与分享
+- **19 年企业级软件经验**（中石油 / 中海油 / 海信 / TCL 等）
+- **RAG 实战**：248 条问题集评测，80% 命中率（持续迭代）
 
-### 兴趣爱好
-
-- 📚 阅读各类书籍
-- 🎮 游戏和休闲
-- 🏃 运动，保持健康
-- 🎵 音乐欣赏
+[了解更多 →](posts/about/about-me.md)
 
 <div class="divider"></div>
 
@@ -72,8 +65,12 @@
 
 如果你想交流任何话题，欢迎通过以下方式联系我：
 
-- GitHub: [@gogodo](https://github.com/gogodo)
 - Email: mouse43992972@gmail.com
+
+<div style="margin-top: 1.5rem;">
+  <img src="assets/images/wechat-qr.png" alt="微信二维码" width="140" style="border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <p style="font-size: 0.85em; color: var(--text-muted); margin-top: 0.5rem;">扫码添加微信（请备注来源）</p>
+</div>
 
 ---
 

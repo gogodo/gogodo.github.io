@@ -6,7 +6,7 @@
 
 <div class="post-list">
 
-  <a href="tech/docsify-blog-setup.md" class="post-list-item">
+  <a href="docsify-blog-setup.md" class="post-list-item">
     <div class="post-list-content">
       <div class="post-list-title">如何使用 Docsify 搭建个人博客</div>
       <div class="post-list-tags">

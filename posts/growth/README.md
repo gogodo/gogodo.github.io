@@ -6,7 +6,7 @@
 
 <div class="post-list">
 
-  <a href="growth/2026-plan.md" class="post-list-item">
+  <a href="2026-plan.md" class="post-list-item">
     <div class="post-list-content">
       <div class="post-list-title">我的 2026 年成长计划</div>
       <div class="post-list-tags">

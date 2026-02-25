@@ -38,8 +38,12 @@
 
 如果你有任何想法或建议，欢迎通过以下方式联系我：
 
-- GitHub: [@gogodo](https://github.com/gogodo)
 - Email: mouse43992972@gmail.com
+
+<div style="margin-top: 1.5rem;">
+  <img src="../../assets/images/wechat-qr.png" alt="微信二维码" width="140" style="border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <p style="font-size: 0.85em; color: var(--text-muted); margin-top: 0.5rem;">扫码添加微信</p>
+</div>
 
 ---
 

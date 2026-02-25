@@ -6,7 +6,7 @@
 
 <div class="post-list">
 
-  <a href="thoughts/why-start-blog.md" class="post-list-item">
+  <a href="why-start-blog.md" class="post-list-item">
     <div class="post-list-content">
       <div class="post-list-title">开篇：为什么开始写博客</div>
       <div class="post-list-tags">
