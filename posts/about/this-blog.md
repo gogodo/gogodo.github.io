@@ -38,8 +38,8 @@
 
 如果你有任何想法或建议，欢迎通过以下方式联系我：
 
-- GitHub Issues
-- Email
+- GitHub: [@gogodo](https://github.com/gogodo)
+- Email: mouse43992972@gmail.com
 
 ---
 

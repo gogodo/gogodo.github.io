@@ -43,7 +43,7 @@
 ### 按分类浏览
 
 <div class="category-links">
-  <a href="tech/README.md" class="tag tech">💻 技术方案</a>
-  <a href="growth/README.md" class="tag growth">🌱 成长思路</a>
-  <a href="thoughts/README.md" class="tag thought">💭 心路历程</a>
+  <a href="tech/" class="tag tech">💻 技术方案</a>
+  <a href="growth/" class="tag growth">🌱 成长思路</a>
+  <a href="thoughts/" class="tag thought">💭 心路历程</a>
 </div>

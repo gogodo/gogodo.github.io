@@ -2,6 +2,20 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 工作语言
+
+**除非必要，请默认使用中文作为工作语言。** 包括但不限于：
+
+- 与用户的对话交流
+- 代码注释和文档说明
+- 错误信息和提示
+
+仅在以下情况使用英文：
+
+- 代码本身的技术要求（如变量名、函数名、API 调用）
+- 技术术语的原文引用
+- 用户明确要求使用英文
+
 ## 项目概述
 
 这是君的个人博客项目，使用 Docsify 构建静态博客网站，部署在 GitHub Pages 上。
@@ -20,9 +34,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## 项目结构
 
 ```
-├── index.html          # Docsify 入口文件，包含所有配置
+├── index.html          # Docsify 入口文件，包含配置和脚本
+├── assets/
+│   └── css/
+│       └── style.css   # 全局样式文件（从 index.html 中拆分）
 ├── README.md           # 网站首页
 ├── _sidebar.md         # 侧边栏导航配置
+├── _coverpage.md       # 封面页配置
 ├── .nojekyll           # GitHub Pages 必需文件（告诉它不要处理 Jekyll）
 ├── CLAUDE.md           # 此文件
 └── posts/              # 博客文章目录
@@ -30,8 +48,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
     ├── all-posts.md    # 所有文章列表
     ├── latest.md       # 最新文章列表
     ├── tech/           # 技术方案类文章
+    │   └── README.md   # 技术方案分类索引
     ├── growth/         # 成长思路类文章
+    │   └── README.md   # 成长思路分类索引
     ├── thoughts/       # 心路历程类文章
+    │   └── README.md   # 心路历程分类索引
     └── about/          # 关于页面
 ```
 
@@ -46,7 +67,7 @@ window.$docsify = {
   subMaxLevel: 2,           // 侧边栏显示的标题层级
   coverpage: true,          // 启用封面页（需要 _coverpage.md）
   search: { ... },          // 搜索配置
-  themeColor: '#42b983',    // 主题色
+  themeColor: '#00b37e',    // 主题色（翡翠绿）
 }
 ```
 
@@ -88,6 +109,7 @@ window.$docsify = {
 1. **`_sidebar.md`** - 添加文章链接到对应分类下
 2. **`posts/all-posts.md`** - 添加到文章列表
 3. **`posts/latest.md`** - 添加到最新文章（按时间）
+4. **`posts/<分类>/README.md`** - 添加到对应分类的索引页
 
 ## 本地开发
 
@@ -179,12 +201,12 @@ GitHub Pages 会自动重新部署，通常需要 1-2 分钟。
 
 ## 样式自定义
 
-全局样式在 `index.html` 的 `<style>` 标签中定义：
+全局样式在 `assets/css/style.css` 中定义：
 
 ```css
 :root {
-  --theme-color: #42b983;  /* 主题色 */
+  --theme-color: #00b37e;  /* 翡翠绿主题色 */
 }
 ```
 
-修改 `--theme-color` 可全局更改主题色。
+修改 `--theme-color` 可全局更改主题色。注意同步修改 `index.html` 中 Docsify 配置的 `themeColor` 值。

@@ -11,3 +11,14 @@ Thumbs.db
 
 # Node modules (if adding Node.js tools later)
 node_modules/
+
+# Claude Code settings
+.claude/settings.local.json
+
+# Temporary files
+nul
+tmpclaude-*/
+tmpclaude-*
+
+# Temporary tools
+url-to-markdown/

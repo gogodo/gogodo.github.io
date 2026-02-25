@@ -31,7 +31,7 @@
 如果你有相似的兴趣，或者想交流任何话题，欢迎通过以下方式联系我：
 
 - GitHub: [@gogodo](https://github.com/gogodo)
-- Email: your-email@example.com
+- Email: mouse43992972@gmail.com
 
 ---
 

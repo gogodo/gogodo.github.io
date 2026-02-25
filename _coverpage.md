@@ -1,4 +1,4 @@
-# MouseChen
+# Mouse陈
 
 > <span style="font-size: 1.15em; opacity: 0.9; letter-spacing: 0.02em; font-weight: 500;">专注成长 · 技术分享 · 心路历程</span>
 
@@ -15,5 +15,5 @@
 </div>
 
 <div style="font-size: 0.8em; opacity: 0.5; margin-top: 1rem; font-family: var(--font-family-code);">
-© 2026 MouseChen
+© 2026 Mouse陈
 </div>

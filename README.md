@@ -1,4 +1,4 @@
-# MouseChen
+# Mouse陈
 
 <div class="hero-section">
   <div class="hero-title">专注成长 · 技术分享 · 心路历程</div>
@@ -24,16 +24,6 @@
     <div class="post-list-meta">2026-02-02</div>
   </a>
 
-  <a href="posts/growth/2026-plan.md" class="post-list-item">
-    <div class="post-list-content">
-      <div class="post-list-title">我的 2026 年成长计划</div>
-      <div class="post-list-tags">
-        <span class="tag growth">年度规划</span>
-      </div>
-    </div>
-    <div class="post-list-meta">2026-01-01</div>
-  </a>
-
   <a href="posts/thoughts/why-start-blog.md" class="post-list-item">
     <div class="post-list-content">
       <div class="post-list-title">开篇：为什么开始写博客</div>
@@ -42,6 +32,16 @@
       </div>
     </div>
     <div class="post-list-meta">2026-01-15</div>
+  </a>
+
+  <a href="posts/growth/2026-plan.md" class="post-list-item">
+    <div class="post-list-content">
+      <div class="post-list-title">我的 2026 年成长计划</div>
+      <div class="post-list-tags">
+        <span class="tag growth">年度规划</span>
+      </div>
+    </div>
+    <div class="post-list-meta">2026-01-01</div>
   </a>
 
 </div>
