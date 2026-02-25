@@ -25,6 +25,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 打造君的个人品牌 IP
 - 提供简洁优雅的阅读体验
 
+### IP 核心定位
+**"把AI从Demo变成生产系统的架构师"**
+
+- 19年企业级软件经验（中石油、中海油、海信、TCL等头部企业）
+- AI落地实践专家
+- 差异化主张："他们讲AI技术，我讲AI如何在年产值X亿的企业系统中真正应用起来"
+
+### 内容策略
+**三位一体IP闭环**：
+1. **文章**（轻量深度，1000-2000字，引流）
+2. **视频**（深度塑造人设，混合形式：录屏+出镜）
+3. **MVP产品**（展示AI在企业系统中的集成效果）
+
+### 核心内容方向
+- **Claude Code企业级实践** - AI辅助开发在真实项目中的应用
+- **AI+工业软件** - 展示AI在PLM/工业互联网中的实际应用
+- **19年技术成长之路** - 职业发展与转型思考
+
 ## 技术栈
 
 - **Docsify** - 无需编译的文档网站生成器，实时解析 Markdown
@@ -121,14 +139,9 @@ window.$docsify = {
 # 使用 Python 3
 python -m http.server 8000
 
-# 使用 Python 2
-python -m SimpleHTTPServer 8000
-
 # 使用 Node.js (需要全局安装 http-server)
 npx http-server -p 8000
 
-# 使用 PHP
-php -S localhost:8000
 ```
 
 然后在浏览器访问 `http://localhost:8000`

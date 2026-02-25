@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "WebFetch(domain:registry.npmjs.org)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(git remote set-url origin https://github.com/gogodo/gogodo.github.io.git)",
+      "Bash(npx -y bun \"C:\\\\Users\\\\mouse\\\\.claude\\\\skills\\\\baoyu-url-to-markdown\\\\scripts\\\\main.ts\" \"https://juejin.cn/post/7493453361698816052\")",
+      "Bash(npx -y bun \"C:\\\\Users\\\\mouse\\\\.claude\\\\skills\\\\baoyu-url-to-markdown\\\\scripts\\\\main.ts\" \"https://juejin.cn/post/7493453361698816052\" --wait)"
     ]
   }
 }
