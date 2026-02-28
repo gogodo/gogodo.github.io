@@ -5,6 +5,17 @@
 <div class="post-list">
   <div class="post-list-header">2026 年 2 月</div>
 
+  <a href="tech/OpenSpec与spec-kit使用指南.md" class="post-list-item">
+    <div class="post-list-content">
+      <div class="post-list-title">OpenSpec 与 spec-kit 使用指南</div>
+      <div class="post-list-tags">
+        <span class="tag tech">Technical</span>
+        <span class="tag tech">AI Coding</span>
+      </div>
+    </div>
+    <div class="post-list-meta">02-28</div>
+  </a>
+
   <a href="tech/docsify-blog-setup.md" class="post-list-item">
     <div class="post-list-content">
       <div class="post-list-title">如何使用 Docsify 搭建个人博客</div>

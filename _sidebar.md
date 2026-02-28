@@ -10,6 +10,7 @@
 
 - 💻 技术方案
   - [Docsify 博客搭建](/posts/tech/docsify-blog-setup.md)
+  - [OpenSpec 与 spec-kit 使用指南](/posts/tech/OpenSpec与spec-kit使用指南.md)
 
 - ℹ️ 关于
   - [关于博客](/posts/about/this-blog.md)
