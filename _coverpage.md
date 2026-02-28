@@ -1,3 +1,7 @@
+<div class="cover-avatar">
+  <img src="assets/images/my-image.png" alt="Mouse陈" class="cover-avatar-img">
+</div>
+
 # Mouse陈
 
 > <span style="font-size: 1.15em; opacity: 0.9; letter-spacing: 0.02em; font-weight: 500;">专注成长 · 技术分享 · 心路历程</span>

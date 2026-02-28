@@ -1,11 +1,16 @@
 # Mouse陈
 
 <div class="hero-section">
-  <div class="hero-title">专注成长 · 技术分享 · AI落地实践</div>
-  <p class="hero-subtitle">做企业级软件19年，现在专注把AI从演示环境跑进生产系统。这里记录我的实践方法、成长复盘和一路走来的思考。</p>
-  <div class="hero-actions">
-    <a href="#-最新文章" class="btn btn-primary">浏览文章</a>
-    <a href="posts/about/about-me.md" class="btn btn-secondary">关于我</a>
+  <div class="hero-content">
+    <div class="hero-title">专注成长 · 技术分享 · AI落地实践</div>
+    <p class="hero-subtitle">做企业级软件19年，现在专注把AI从演示环境跑进生产系统。这里记录我的实践方法、成长复盘和一路走来的思考。</p>
+    <div class="hero-actions">
+      <a href="#-最新文章" class="btn btn-primary">浏览文章</a>
+      <a href="posts/about/about-me.md" class="btn btn-secondary">关于我</a>
+    </div>
+  </div>
+  <div class="hero-avatar">
+    <img src="assets/images/my-image.png" alt="Mouse陈">
   </div>
 </div>
 

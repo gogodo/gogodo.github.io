@@ -491,9 +491,26 @@ body {
   box-shadow: var(--shadow-glow);
 }
 
-/* Hide the broken cover image */
-.cover-main img {
+/* Hide the broken cover image (except avatar) */
+.cover-main > img {
   display: none;
+}
+
+/* === Cover Avatar === */
+.cover-avatar {
+  margin-bottom: var(--spacing-xl);
+  animation: fadeInUp 1s ease-out;
+}
+
+.cover-avatar-img {
+  display: block !important;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--theme-color);
+  box-shadow: var(--shadow-glow), var(--shadow-md);
+  margin: 0 auto;
 }
 
 /* Fade in animation */
@@ -819,6 +836,36 @@ body {
     font-size: var(--font-size-base);
   }
 
+  .cover-avatar-img {
+    width: 96px;
+    height: 96px;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-avatar img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .about-intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-avatar img {
+    width: 120px;
+    height: 120px;
+  }
+
   .post-card {
     padding: var(--spacing-md);
   }
@@ -854,10 +901,16 @@ input:focus-visible {
 
 /* === Hero Section === */
 .hero-section {
-  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3xl);
   padding: var(--spacing-3xl) 0;
   margin-bottom: var(--spacing-xl);
   border-bottom: 1px solid var(--border-color);
+}
+
+.hero-content {
+  flex: 1;
 }
 
 .hero-title {
@@ -880,6 +933,42 @@ input:focus-visible {
 .hero-actions {
   display: flex;
   gap: var(--spacing-md);
+}
+
+.hero-avatar {
+  flex-shrink: 0;
+}
+
+.hero-avatar img {
+  width: 180px;
+  height: 180px;
+  border-radius: var(--radius-xl);
+  object-fit: cover;
+  box-shadow: var(--shadow-md);
+}
+
+/* === About Intro === */
+.about-intro {
+  display: flex;
+  gap: var(--spacing-xl);
+  align-items: flex-start;
+  margin: var(--spacing-lg) 0 var(--spacing-xl);
+}
+
+.about-avatar {
+  flex-shrink: 0;
+}
+
+.about-avatar img {
+  width: 140px;
+  height: 140px;
+  border-radius: var(--radius-xl);
+  object-fit: cover;
+  box-shadow: var(--shadow-md);
+}
+
+.about-text {
+  flex: 1;
 }
 
 /* === Divider === */
