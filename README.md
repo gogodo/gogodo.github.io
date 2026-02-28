@@ -1,8 +1,8 @@
 # Mouse陈
 
 <div class="hero-section">
-  <div class="hero-title">专注成长 · 技术分享 · 心路历程</div>
-  <p class="hero-subtitle">这里是君的个人博客，分享个人成长心路与技术方向的实践思考。</p>
+  <div class="hero-title">专注成长 · 技术分享 · AI落地实践</div>
+  <p class="hero-subtitle">做企业级软件19年，现在专注把AI从演示环境跑进生产系统。这里记录我的实践方法、成长复盘和一路走来的思考。</p>
   <div class="hero-actions">
     <a href="#-最新文章" class="btn btn-primary">浏览文章</a>
     <a href="posts/about/about-me.md" class="btn btn-secondary">关于我</a>
@@ -28,7 +28,7 @@
     <div class="post-list-content">
       <div class="post-list-title">开篇：为什么开始写博客</div>
       <div class="post-list-tags">
-        <span class="tag thought">写作</span>
+        <span class="tag growth">写作</span>
       </div>
     </div>
     <div class="post-list-meta">2026-01-15</div>
@@ -50,14 +50,11 @@
 
 ## 🎯 关于我
 
-我的定位：**把 AI 从 Demo 变成生产系统的架构师**。
+你好，我是陈君（Mouse陈）。做了 19 年企业级软件，服务过中石油、中海油、海信、TCL 等头部企业，现在专注 AI 应用落地。
 
-我长期在企业系统一线做架构与交付，关注 AI（尤其是 RAG/知识工程）从“能演示”到“能上线、可运营、可迭代”的工程化落地。
+我提供 **AI 落地咨询**、**开发实践培训**和**架构评审**服务。如果你正在把 AI 从 Demo 跑进生产环境，也许我的经验对你有帮助。
 
-- **19 年企业级软件经验**（中石油 / 中海油 / 海信 / TCL 等）
-- **RAG 实战**：248 条问题集评测，80% 命中率（持续迭代）
-
-[了解更多 →](posts/about/about-me.md)
+[了解更多关于我 →](posts/about/about-me.md)
 
 <div class="divider"></div>
 

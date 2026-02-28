@@ -21,7 +21,7 @@
     <div class="post-list-content">
       <div class="post-list-title">开篇：为什么开始写博客</div>
       <div class="post-list-tags">
-        <span class="tag thought">Thoughts</span>
+        <span class="tag growth">成长蜕变</span>
       </div>
     </div>
     <div class="post-list-meta">01-15</div>
@@ -43,7 +43,6 @@
 ### 按分类浏览
 
 <div class="category-links">
+  <a href="growth/" class="tag growth">🌱 成长蜕变</a>
   <a href="tech/" class="tag tech">💻 技术方案</a>
-  <a href="growth/" class="tag growth">🌱 成长思路</a>
-  <a href="thoughts/" class="tag thought">💭 心路历程</a>
 </div>

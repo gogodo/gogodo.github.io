@@ -8,7 +8,11 @@
       "Bash(git push)",
       "Bash(git remote set-url origin https://github.com/gogodo/gogodo.github.io.git)",
       "Bash(npx -y bun \"C:\\\\Users\\\\mouse\\\\.claude\\\\skills\\\\baoyu-url-to-markdown\\\\scripts\\\\main.ts\" \"https://juejin.cn/post/7493453361698816052\")",
-      "Bash(npx -y bun \"C:\\\\Users\\\\mouse\\\\.claude\\\\skills\\\\baoyu-url-to-markdown\\\\scripts\\\\main.ts\" \"https://juejin.cn/post/7493453361698816052\" --wait)"
+      "Bash(npx -y bun \"C:\\\\Users\\\\mouse\\\\.claude\\\\skills\\\\baoyu-url-to-markdown\\\\scripts\\\\main.ts\" \"https://juejin.cn/post/7493453361698816052\" --wait)",
+      "Bash(python serve.py)",
+      "Bash(netstat -ano)",
+      "Bash(git fetch)",
+      "Bash(git pull)"
     ]
   }
 }

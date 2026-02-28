@@ -21,7 +21,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 这是君的个人博客项目，使用 Docsify 构建静态博客网站，部署在 GitHub Pages 上。
 
 ### 项目目标
-- 发布个人技术方案、成长思路、心路历程
+- 发布个人成长蜕变、技术方案
 - 打造君的个人品牌 IP
 - 提供简洁优雅的阅读体验
 
@@ -41,7 +41,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### 核心内容方向
 - **Claude Code企业级实践** - AI辅助开发在真实项目中的应用
 - **AI+工业软件** - 展示AI在PLM/工业互联网中的实际应用
-- **19年技术成长之路** - 职业发展与转型思考
+- **成长蜕变** - 19年技术人的成长路径、转型决策与复盘思考
 
 ## 技术栈
 
@@ -67,10 +67,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
     ├── latest.md       # 最新文章列表
     ├── tech/           # 技术方案类文章
     │   └── README.md   # 技术方案分类索引
-    ├── growth/         # 成长思路类文章
-    │   └── README.md   # 成长思路分类索引
-    ├── thoughts/       # 心路历程类文章
-    │   └── README.md   # 心路历程分类索引
+    ├── growth/         # 成长蜕变类文章（含原"成长思路"和"心路历程"）
+    │   └── README.md   # 成长蜕变分类索引
+    ├── thoughts/       # （历史目录，内容归入 growth/）
     └── about/          # 关于页面
 ```
 
@@ -100,9 +99,9 @@ window.$docsify = {
 
 ### 文章位置
 
-根据文章分类放置到对应目录：
+根据文章分类放置到对应目录（两大分类）：
 - 技术方案 → `posts/tech/`
-- 成长心路 → `posts/growth/`
+- 成长蜕变 → `posts/growth/`（含原"成长思路"和"心路历程"内容）
 - 关于页面 → `posts/about/`
 
 ### 文章格式
