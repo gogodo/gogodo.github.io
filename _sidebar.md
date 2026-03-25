@@ -9,6 +9,7 @@
   - [为什么开始写博客](/posts/thoughts/why-start-blog.md)
 
 - 💻 技术方案
+  - [AI 编程：从骑自行车到开汽车](/posts/tech/ai-programming-bike-to-car.md)
   - [Docsify 博客搭建](/posts/tech/docsify-blog-setup.md)
   - [OpenSpec 与 spec-kit 使用指南](/posts/tech/OpenSpec与spec-kit使用指南.md)
 

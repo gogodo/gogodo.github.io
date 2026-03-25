@@ -3,6 +3,18 @@
 <div class="subtitle">这里汇集了所有发布的文章，按发布时间倒序排列。</div>
 
 <div class="post-list">
+  <div class="post-list-header">2026 年 3 月</div>
+
+  <a href="tech/ai-programming-bike-to-car.md" class="post-list-item">
+    <div class="post-list-content">
+      <div class="post-list-title">AI 编程：从骑自行车到开汽车</div>
+      <div class="post-list-tags">
+        <span class="tag tech">AI 编程</span>
+      </div>
+    </div>
+    <div class="post-list-meta">03-24</div>
+  </a>
+
   <div class="post-list-header">2026 年 2 月</div>
 
   <a href="tech/OpenSpec与spec-kit使用指南.md" class="post-list-item">

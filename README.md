@@ -18,6 +18,17 @@
 
 <div class="post-list">
 
+  <a href="posts/tech/ai-programming-bike-to-car.md" class="post-list-item">
+    <div class="post-list-content">
+      <div class="post-list-title">AI 编程：从骑自行车到开汽车</div>
+      <div class="post-list-tags">
+        <span class="tag tech">AI 编程</span>
+        <span class="tag tech">项目复盘</span>
+      </div>
+    </div>
+    <div class="post-list-meta">2026-03-24</div>
+  </a>
+
   <a href="posts/tech/docsify-blog-setup.md" class="post-list-item">
     <div class="post-list-content">
       <div class="post-list-title">示例：如何使用 Docsify 搭建个人博客</div>
@@ -38,17 +49,6 @@
     </div>
     <div class="post-list-meta">2026-01-15</div>
   </a>
-
-  <a href="posts/growth/2026-plan.md" class="post-list-item">
-    <div class="post-list-content">
-      <div class="post-list-title">我的 2026 年成长计划</div>
-      <div class="post-list-tags">
-        <span class="tag growth">年度规划</span>
-      </div>
-    </div>
-    <div class="post-list-meta">2026-01-01</div>
-  </a>
-
 </div>
 
 <div class="divider"></div>
